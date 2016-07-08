@@ -34,8 +34,8 @@ namespace Task5
         public virtual void Show()
         {
             Console.WriteLine("Окружность:");
-            Console.WriteLine("Радиус = {0}", R);
-            Console.WriteLine("Длина = {0}", Circumference);
+            Console.WriteLine("Радиус = {0:0.##}", R);
+            Console.WriteLine("Длина = {0:0.##}", Circumference);
         }
 
         public virtual void Input()
